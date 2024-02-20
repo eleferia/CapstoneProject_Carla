@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+    
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+    
+
+    <div class="banner" id="home">
+        <div class="navbar">
+            <div class="logo">CALL OF DUTY</div>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#news">NEWS</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#testimony">TESTIMONY</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>CALL OF DUTY MOBILE</h1> 
+            <p>For more game  montage please like the page. </p>
+
+            <div class="buttons">
+                <button type="button"><span></span>READ MORE</button>
+                <button type="button"><span></span>WATCH MORE</button>
+            </div>
+        </div>
+    </div>
+    <div class="blog-section" id="news">
+
+        <div class="section-content">
+        
+        <div class="Title">
+            <h2> CALL OF DUTY MOBILE </h2>
+            <p>RORENSU</p>
+        </div>
+        <div class="cards">
+        <div class="card">
+    
+            <div class="image-section">
+                <img src="img/manta.jpg">
+            </div>
+    
+            <div class="article">
+                <h4>CALL OF DUTY MOBILE</h4>
+                <p>CALL OF DUTY</br></br>
+                    Call of Duty is a video game series and media franchise published by Activision, starting in 2003. 
+                    The games were first developed by Infinity Ward, then by Treyarch and Sledgehammer Games. 
+                    Several spin-off and handheld games were made by other developers. 
+                    The most recent title, Call of Duty: Modern Warfare II, was released on October 28, 2022.
+
+The series originally focused on the World War II setting, 
+with Infinity Ward developing Call of Duty (2003) and Call of Duty 2 (2005) 
+titles in the series and Treyarch developing the Call of Duty 3 (2006). Call of Duty 4:
+ Modern Warfare (2007) introduced a modern setting, and proved to be the breakthrough title for the series, 
+ creating the Modern Warfare sub-series; a Modern Warfare remastered version released in 2016. Two other entries, 
+ Modern Warfare 2 (2009) and Modern Warfare 3 (2011), were made. 
+                </p>
+            </div>
+            <div class="blog-view">
+                <a href="class=button">READ MORE</a>
+            </div>
+            <div class="posted-date">
+                <p>Date posted: October 19, 2019</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="image-section">
+                <img src="img/BR_Tour_Pt_2_TOUT-.jpg">
+            </div>
+    
+            <div class="article">
+                <h4>CALL OF DUTY MOBILE</h4>
+                <p>BATTLE ROYAL</br></br>
+                    Call of Duty Mobile brings battle royale to your mobile device, 
+                    and this mode works just how you'd expect. 
+                    You drop onto the map with 99 other players, 
+                    and you must scavenge for loot and try to survive against opponents, 
+                    while avoiding the collapse of gas as the safe area shrinks on the map. 
+                    The last player or squad standing wins the match.</p>
+            </div>
+    
+            <div class="blog-view">
+                <a href="class=button">READ MORE</a>
+            </div>
+            <div class="posted-date">
+                <p>Date posted: October 19, 2019</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="image-section">
+                <img src="img/callofduty.gif">
+            </div>
+            
+            <div class="article">
+                <h4>CALL OF DUTY MOBILE</h4>
+                <p>MULTIPLAYER</br></br>
+                    Multiplayer is the main mode of Call of Duty: Mobile. 
+                    Multiplayer modes will have you working in teams or alone to complete the chosen objective. 
+                    There are multiple modes to choose from when playing in Multiplayer.</p>
+            </div>
+    
+            <div class="blog-view">
+                <a href="class=button">READ MORE</a>
+            </div>
+    
+            <div class="posted-date">
+                <p>Date posted: October 19,2019</p>
+    
+        </div>
+       </div>
+        </div>
+        </div>
+    
+        </div>
+
+---- THIS IS FOR ABOUT PAGE --
+        
+    <div class="about-section" id="about">
+        <div class="heading">
+            <h1>About Us</h1>
+            <p>This Website contain Call of Duty History</p>
+        </div>
+    
+        <div class="container">
+            <section class="about">
+                <div class="about-image">
+                    <img src="img/callofduty.gif">
+                </div>
+    
+                <div class="about-content">
+                    <h2>Call of Duty Mobile</h2>
+                    <P>Call of Duty: Mobile is a free-to-play first-person shooter video game developed by TiMi Studio Group and published by Activision for Android and iOS. It was released on October 1, 2019, where it was one of the largest mobile game launches in history, generating over US$480 million with 270 million downloads within a year. Call of Duty: Mobile was published in other regions by Garena, Tencent Games, VNG Corporation and TiMi Studio Group.</P>
+    
+                    <a href="#" class="read-more"> Read More </a>
+                </div>
+    
+            </section>
+        </div>
+    
+    
+    
+    
+    
+    </div>
+
+<!---Gallery Page--->
+    
+<div class="gallery" id="gallery">
+
+<input type="radio" name="photos" id="check1" checked>
+<input type="radio" name="photos" id="check2">
+<input type="radio" name="photos" id="check3">
+<input type="radio" name="photos" id="check4">
+
+<div class="gallery-container">
+    <h1>OUR PHOTO GALLERY</h1>
+    <div class="top-content">
+    <h3>Photo Gallery</h3>
+    <label for="check1">All Photos</label>
+    <label for="check2">Scrimmage Photos</label>
+    <label for="check3">Tournament Photos</label>
+    <label for="check4">Ranked Game Photos</label>
+</div>
+
+<div class="photo-gallery">
+
+    <div class="pic Events">
+        <img src="img/scrimm1.jpg">
+    </div>
+
+    <div class="pic Bonding">
+        <img src="img/tourna1.jpg">
+    </div>
+
+    <div class="pic Outing">
+        <img src="img/rg2.jpg">
+    </div>
+
+    <div class="pic Events">
+        <img src="img/scrimm2.jpg">
+    </div>
+
+    <div class="pic Bonding">
+        <img src="img/tourna2.jpg">
+    </div>
+
+    <div class="pic Outing">
+        <img src="img/rg3.jpg">
+    </div>
+
+    <div class="pic Events">
+        <img src="img/scrimm3.jpg">
+    </div>
+
+    <div class="pic Bonding">
+        <img src="img/tourna3.jpg">
+    </div>
+
+    <div class="pic Outing">
+        <img src="img/rg4.jpg">
+    </div>
+
+    <div class="pic Events">
+        <img src="img/scrimm4.jpg">
+    </div>
+
+    <div class="pic Bonding">
+        <img src="img/tourna4.jpg">
+    </div>
+
+    <div class="pic Outing">
+        <img src="img/rg1.jpg">
+    </div>
+
+</div>
+
+</div>
+
+</div>
+
+------- Testimony
+
+<div class="testimony" id="testimony">
+    <div class="profile">
+        <h1> TESTIMONY </h1> 
+   <figure class="snip1139">
+       <blockquote>Wow, may ganitong mga website pala? Grabe to naknampucha!
+         <div class="arrow"></div>
+       </blockquote>
+       <img src="img/Synth.jpg" alt="sample3"/>
+       <div class="author">
+         <h5>Synth Gaming - Content creator/ Call of Duty Streamer</h5>
+       </div>
+     </figure>
+     <figure class="snip1139 hover">
+       <blockquote> Halaa? Ganda naman neto guys, pero mas maganda si idol!
+         <div class="arrow"></div>
+       </blockquote>
+       <img src="img/Donnn.jpg" alt="sample47"/>
+       <div class="author">
+         <h5>Donnnde Content creator/ Call of duty mobile streamer</h5>
+       </div>
+     </figure>
+     <figure class="snip1139">
+       <blockquote> Hello chat! may mga ganitong website pala na noh? 
+         <div class="arrow"></div>
+       </blockquote>
+       <img src="img/tokyo.jpg" alt="sample17"/>
+       <div class="author">
+         <h5>TOKYO GAMING Content creator/Call of duty proffesional player/ Streamer</h5>
+       </div>
+     </figure>
+</div>
+</div>
+</div>
+
+
+    <!---footer-->
+
+<div class="Footer-basic">
+    <div class="footer-items">
+
+    <footer>
+        <a href="#" class="fa fa-facebook-official"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-google"></a>
+        <p>All rights reserved!</p>
+        <h4>&copy; 2023</h4>
+    </footer>
+
+
+        
+    </div>
+
+    <a href="#home" id="myBtn" title="Go to Top">TOP</a>
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction(){
+            if (document.body.scrollTop > 20 || Document.document.scrollTop > 20){
+            }else{
+                mybutton.style.display = "none";
+            }
+        }
+    </script>
+
+</div>
+</div>
+
+    
+
+
+
+</body>
+</html>
